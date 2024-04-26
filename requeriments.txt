@@ -1,0 +1,6 @@
+# Libs Python
+
+requests
+pandas
+nump
+jupyterlab
