@@ -1,7 +1,7 @@
-# datasystem
+## datasystem
 This project to explore the tools related for platform (apache-beam, airflow, docker, docker-compose etc).
 
-# docker-compose_yaml
+# docker-compose_yaml:
 
 https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html
 
@@ -16,7 +16,7 @@ echo -e "AIRFLOW_UID=$(id -u)\n AIRFLOW_GID=0" > .env
 
 docker compose up airflow-init  # init airflor  
 ``` 
-# Stop process
+# Stop process:
 ```
 docker stop $(docker ps -a -q)
 
@@ -27,3 +27,12 @@ docker images
 docker-compose down --volumes --remove-orphans
 
 ``` 
+# Base structure:
+```
+.
+├── docker-compose.yaml
+├── Dockerfile
+├── requeriments.txt
+├── Dockerfile-ubuntu
+└── README.md
+```
