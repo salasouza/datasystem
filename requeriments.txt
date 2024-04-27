@@ -1,6 +1,18 @@
 # Libs Python
-
-requests
+# Libs Python
 pandas
-nump
+matplotlib
+seaborn
+jupyter
+scikit-learn
+scipy
+numpy
+statsmodels
+joblib
+wordcloud
+Pillow
 jupyterlab
+apache-beam
+
+# Libs for spark
+pyspark
