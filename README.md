@@ -14,6 +14,16 @@ mkdir -p ./dags ./logs ./plugins ./config
 
 echo -e "AIRFLOW_UID=$(id -u)\n AIRFLOW_GID=0" > .env
 
-docker compose up airflow-init
+docker compose up airflow-init  # init airflor  
 ``` 
+# Stop process
+```
+docker stop $(docker ps -a -q)
 
+docker rmi $(docker images -a -q)
+
+docker images 
+
+docker-compose down --volumes --remove-orphans
+
+``` 
