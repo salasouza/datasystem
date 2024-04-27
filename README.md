@@ -8,7 +8,11 @@ This project to explore the tools related for platform (apache-beam, airflow, do
 ├── Dockerfile
 ├── requeriments.txt
 ├── Dockerfile-ubuntu
-└── README.md
+├── README.md
+├── config
+├── dags
+├── logs
+└── plugins
 ```
 
 # docker-compose_yaml:
