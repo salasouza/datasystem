@@ -34,10 +34,14 @@ docker compose up airflow-init  # init airflor
 ```
 docker stop $(docker ps -a -q)
 
-docker rmi $(docker images -a -q)
-
 docker images 
 
 docker-compose down --volumes --remove-orphans
+
+docker-compose stop
+
+docker rm -vf $(docker ps -aq)
+
+docker rmi -fv $(docker images -aq)
 
 ``` 

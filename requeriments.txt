@@ -1,5 +1,4 @@
 # Libs Python
-# Libs Python
 pandas
 matplotlib
 seaborn

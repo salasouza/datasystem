@@ -1,0 +1,4 @@
+project:
+  name: "Data System"
+  beam:
+    path: "src/pipeline/beam"
